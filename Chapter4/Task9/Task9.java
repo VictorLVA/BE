@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Task9 {
 
     public static void main(String[] args) {
-        int fibonachiCount = 0;
+        int fibonachiCount;
         System.out.print("Please enter fibonachi count: ");
         Scanner input = new Scanner(System.in);
         try {
