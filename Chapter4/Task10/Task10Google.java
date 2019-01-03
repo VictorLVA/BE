@@ -19,7 +19,7 @@ public class Task10Google {
     }
 
     private static List<Character> sortVampire(String v) {
-        List<Character> vc = new ArrayList<Character>();
+        List<Character> vc = new ArrayList<>();
         for (int j = 0; j < v.length(); j++) {
             vc.add(v.charAt(j));
         }
