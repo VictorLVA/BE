@@ -9,7 +9,7 @@ public class Task10 {
         for (int i = 10; i <= 99; i++) {
             for (int j = i; j <= 99; j++) {
                 Integer result = i * j;
-                if (result > 999 && result < 10000) {
+                if (result >= 1000 && result <= 9999) {
                     List<Character> resultSymbolsList = new ArrayList<>();
                     for (char everyResultSymbol : result.toString().toCharArray()) {
                         resultSymbolsList.add(everyResultSymbol);
